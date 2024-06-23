@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ctBackground{
+  background-color: #eafde6;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.ctContent{
+  background-color: #ffffff;
+  width: 40%;
+  height: 85%;
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.formContent{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+#txtLogo, #txtDesc{
+  font-family: 'Ubuntu';
+}
+
+#txtDesc{
+  margin: 0px;
+  font-size: 20px;
+}
+
+#txtLogo{
+  margin: 0px;
+}
+
+.txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctForm{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#btRegister{
+  width: 100%;
+  height: 40px;
+  background-color: #1d9b94;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  border-radius: 10px;
+}
+
+#btRegister a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#userName, #userSurname, #userEmail, #userPass, #confirmPass{
+  border: 0.5px solid #1d9b94;
+  border-radius: 5px;
+  height: 25px;
+} 
+
+#labelName, #labelSurname, #labelEmail, #labelPass, #labelConfirmPass{
+  font-family: 'Ubuntu';
+} 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="../styles/register.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+</head>
+<body>
+  <div class="ctBackground">
+    <div class="ctContent">
+      <div class="txt">
+        <h1 id="txtLogo">DescubraUna</h1>
+        <h2 id="txtDesc">Crie sua conta</h2>
+      </div>
+      <div class="ctForm">
+        <form  class="form">
+          <div class="formContent">
+            <div class="inputs">
+              <label id="labelName" for="userName">Nome</label>
+              <input type="text" id="userName" name="userName">
+            </div>
+            <div class="inputs">
+              <label id="labelSurname" for="userSurname">Sobrenome</label>
+              <input type="text" id="userSurname" name="userSurname">
+            </div>
+            
+            <div class="inputs">
+              <label id="labelEmail" for="userEmail">Email</label>
+              <input type="text" id="userEmail" name="userEmail">
+            </div>
+    
+            <div class="inputs">
+              <label id="labelPass" for="userPass">Senha</label>
+              <input type="password" id="userPass" name="userPass">
+            </div>
+    
+            <div class="inputs">
+              <label id="labelConfirmPass" for="confirmPass">Confirmação de senha</label>
+              <input type="password" id="confirmPass" name="confirmPass">
+            </div>
+          </div>
+  
+        </form>
+      </div>
+      <div">
+        <button id="btRegister"><a href="/src/pages/login.html">Cadastrar</a></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

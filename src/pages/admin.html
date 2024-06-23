@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link rel="stylesheet" href="../styles/admin.css">
+</head>
+
+<body>
+  <div class="ctBackground">
+    <div class="ctContent">
+      <div class="txt">
+        <h1 id="txtLogo">DescubraUna</h1>
+        <h2 id="txtDesc">Cadastrar usuário</h2>
+      </div>
+      <div class="ctForm">
+        <form class="form">
+          <div class="formContent">
+            <div class="inputs">
+              <label id="labelName" for="userName">Nome</label>
+              <input type="text" id="userName" name="userName" required>
+            </div>
+
+            <div class="inputs">
+              <label id="labelEmail" for="userEmail">Email</label>
+              <input type="text" id="userEmail" name="userEmail" required>
+            </div>
+
+            <div class="inputs">
+              <label id="labelPass" for="userPass">Senha</label>
+              <input type="password" id="userPass" name="userPass" required>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+      <div>
+        <button id="btRegister">Cadastrar</button>
+        <button id="btLimpar">Limpar Formulário</button>
+
+      </div>
+
+      <ul id="lista"></ul>
+      <button id="btClearAll">Excluir tudo</button>
+    </div>
+  </div>
+
+  <script src="./admin.js"></script>
+</body>
+
+</html>

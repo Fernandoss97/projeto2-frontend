@@ -1,0 +1,117 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ctBackground{
+  background-color: #eafde6;
+  padding: 200px;
+  height: 100%;
+}
+
+.ctContent{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.ctLogin, .ctImg{
+  width: 50%;
+}
+
+.ctLogin{
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.ctLoginContent{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  
+}
+
+.ctTxt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.40;
+}
+
+.ctImg img{
+  width: 100%;
+  height: 100%;
+}
+
+#txtLogo, #txtSlogan, #txtDesc{
+  font-family: 'Ubuntu';
+}
+
+#txtSlogan{
+  font-size: 16px;
+}
+
+#txtDesc{
+  font-size: 13px;
+  color: #71a8a4;
+  margin-top: 0px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.ctEmailInput{
+  display: flex;
+  flex-direction: column;
+}
+
+.ctPassInput{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#userEmail, #userPass{
+  border: 0.5px solid #1d9b94;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.ctContentBottom{
+  display: flex;
+  flex: 0.60;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#labelPass, #labelEmail, #cadastre-se{
+  font-family: 'Ubuntu';
+}
+
+#btEntrar a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#btEntrar{
+  background-color: #1d9b94;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  border: none;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+#linkRegister{
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  color: #1d9b94;
+}

@@ -1,0 +1,235 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ctBackground {
+  height: 100%;
+  background-color: #b4d5d3;
+  margin: 0;
+}
+
+header {
+  background-color: #1d9b94;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 40px 0 40px;
+}
+
+#txtLogo {
+  font-size: 35px;
+  font-family: "Ubuntu";
+  color: #ffffff;
+}
+
+#linkLogin {
+  padding: 5px;
+  text-decoration: none;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#linkAdmin {
+  padding: 5px;
+  text-decoration: none;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.btCad {
+  width: 140px;
+  height: 50px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b6d4fc;
+}
+
+.btCad a {
+  text-decoration: none;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.ctImg {
+  height: 480px;
+}
+
+.ctImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ctMain {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ctActivity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.ctEstablishments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ctCategory {
+  display: flex;
+  flex-direction: row;
+}
+
+.ctCategory h2 {
+  font-size: 30px;
+  font-family: "hind";
+  font-weight: 700;
+  max-width: 750px;
+  color: #4d4d4d;
+}
+
+.ctCardCategory {
+  display: flex;
+  flex-direction: column;
+}
+
+#txtDesc {
+  font-family: "hind";
+  font-weight: 700;
+  font-size: 50px;
+  max-width: 750px;
+  color: #4d4d4d;
+  margin: 0;
+}
+
+.ctCards {
+  height: 470px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: 10px;
+  height: 100%;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.ctCardDesc {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ctImgContact {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#description,
+#title {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+.ctCardDesc p,
+h2 {
+  margin: 0;
+}
+
+.ctCardDesc img {
+  width: 30px;
+  height: 30px;
+}
+
+.ctImgCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.ctCardDesc h2,
+p {
+  font-family: "hind";
+}
+
+.ctTag {
+  color: #fff;
+  background: #e55402;
+  font-family: "Ubuntu";
+  min-width: 70px;
+  width: fit-content;
+  border-radius: 16px;
+  padding: 5px 10px;
+  position: relative;
+  right: -130px;
+  top: -19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ctTag span {
+  font-family: "hind";
+  font-weight: 700;
+}
+
+footer {
+  background-color: #1d9b94;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 40px;
+}
+
+footer p {
+  font-family: "hind";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "hind";
+  font-weight: 700;
+}
